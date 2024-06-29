@@ -1,4 +1,4 @@
-import { TokenPriceBatchedRequest, NftMintPriceByCreatorAvgRequest } from "@hellomoon/api";
+import { PriceBatchedRequest, NftMintPriceByCreatorAvgRequest } from "@hellomoon/api";
 import { PublicKey } from "@solana/web3.js";
 import { NextApiRequest, NextApiResponse } from "next";
 
@@ -34,7 +34,7 @@ async function getTokenTotal(address: string) {
   while (counter < mints.length) {
     pricePromises.push(
       HELLOMOON_CLIENT.send(
-        new TokenPriceBatchedRequest({ mints: mints.slice(counter, counter + batchSize) }),
+        new PriceBatchedRequest({ mints: mints.slice(counter, counter + batchSize) }),
       ),
     );
 

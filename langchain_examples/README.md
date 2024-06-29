@@ -11,5 +11,5 @@ To run the python example, you will have to have an OpenAI key (you do not need 
 ```bash
 poetry install
 cd langchain_examples
-OPENAI_API_KEY=sk-xxxxxxx DEV=true python python/main.py
+OPENAI_API_KEY=sk-xxxxxxx API_URL=http://localhost:3000 python main.py
 ```
