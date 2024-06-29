@@ -226,3 +226,8 @@ This codebase is released under [Apache License 2.0](LICENSE.md).
 # Disclaimer
 
 By accessing or using this codebase or any of its components, you accept and agree with the [Disclaimer](DISCLAIMER.md).
+
+# Contact
+
+Telegram: toannhu96
+Twitter: toannhu21096
